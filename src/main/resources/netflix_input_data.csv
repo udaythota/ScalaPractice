@@ -1,0 +1,15 @@
+user_id,navigation_page,url,session_id,date,hour,timestamp
+1001,HomePage,https://www.netflix.com/,6001,20181125,11,1543145019
+1001,OriginalsGenre,https://www.netflix.com/browse/genre/839338,6001,20181125,11,1543144483
+1001,OurPlanetTitle,https://www.netflix.com/title/80049832,6001,20181125,11,1543144449
+1001,HomePage,https://www.netflix.com/,6001,20181125,11,1543145017
+2002,HomePage,https://www.netflix.com/,7004,20181125,11,1543144483
+2002,OriginalsGenre,https://www.netflix.com/browse/genre/839338,7004,20181125,11,1543144449
+2002,HomePage,https://www.netflix.com/,7004,20181125,11,1543145006
+2002,OriginalsGenre,https://www.netflix.com/browse/genre/839338,7004,20181125,11,1543145009
+2002,OurPlanetTitle,https://www.netflix.com/title/80049832,7004,20181125,11,1543145206
+2002,HomePage,https://www.netflix.com/,7004,20181125,11,1543145406
+2002,OurPlanetTitle,https://www.netflix.com/title/80049832,7004,20181125,11,1543145409
+4001,OurPlanetTitle,https://www.netflix.com/title/80049832,9005,20181125,11,1543145017
+3003,OurPlanetTitle,https://www.netflix.com/title/80049832,8009,20181125,11,1543144439
+3003,LogIn,https://www.netflix.com/login,8009,20181125,11,1543144539
