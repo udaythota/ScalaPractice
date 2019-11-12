@@ -3,6 +3,8 @@
 
 #Output Files:
 out/
+target/
+project/
 
 #Ignore IML Files:
 *.iml
