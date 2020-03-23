@@ -92,7 +92,9 @@ object DFTest extends App with Context {
   usersDS.rdd.map(x => x)
     .filter(x => filter_nav_list(x.nav_list)).toDF().show(false)
 
-  val w = window.partitionBy("user_id").orderBy("timestamp")
+  usersDS.show(false)
+
+  /*val w = window.partitionBy("user_id").orderBy("timestamp")
   val raw_users = clickStreamDS.select($"user_id", $"navigation_page".as("nav_page"), rank.over(w).as("ranker"))
   raw_users.show(false)
 
@@ -110,7 +112,7 @@ object DFTest extends App with Context {
     .filter($"d1.nav_page" === "HomePage"
       and $"d2.nav_page" === "OriginalsGenre" and $"d3.nav_page" === "OurPlanetTitle" and $"d4.nav_page" === "HomePage"
        )
-      .show(100, false)
+      .show(100, false)*/
   //    .select($"d1.user_id", $"d1.nav_page", $"d2.nav_page", $"d3.nav_page", $"d4.nav_page")
   //    .select($"d1.user_id").distinct.show()
 
