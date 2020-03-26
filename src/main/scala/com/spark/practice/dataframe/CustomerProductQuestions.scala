@@ -63,6 +63,7 @@ object CustomerProductQuestions extends App with Context {
   import org.apache.spark.sql.functions._
 
   val products = sparkContext.textFile("src/main/resources/products.csv")
+
   val customers = sparkContext.textFile("src/main/resources/customers.csv")
   val sales = sparkContext.textFile("src/main/resources/sales.csv")
 
